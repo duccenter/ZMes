@@ -2,11 +2,15 @@
 
 ZMes là ứng dụng desktop cho việc nhắn tin và quản lý khách hàng Zalo: xem hội thoại cá nhân/nhóm, phân loại khách hàng, quản lý danh bạ và chiến dịch trong một giao diện.
 
-**Bản phát hành hiện tại: [2.9.9](https://github.com/duccenter/ZMes/releases/tag/v2.9.9)** · Windows x64 · một tệp EXE portable.
+**ZMes 1.0.0 — Bản bắt đầu** · Windows x64 · một tệp EXE portable.
 
-[**Tải phiên bản mới nhất**](https://github.com/duccenter/ZMes/releases/latest) · [**Hướng dẫn cập nhật**](UPDATING.md)
+Phiên bản đã được đặt lại thành **1.0.0** làm mốc phát hành mới. Mã nguồn đang được hoàn thiện và kiểm thử; **chưa có EXE 1.0.0 trên Releases**. Các bản 2.x là lịch sử trước khi chuẩn hóa phiên bản. Bản cũ hiện còn để tải: [2.9.9](https://github.com/duccenter/ZMes/releases/tag/v2.9.9).
+
+[**Xem các bản phát hành**](https://github.com/duccenter/ZMes/releases/latest) · [**Hướng dẫn cập nhật**](UPDATING.md)
 
 ## Tải và sử dụng
+
+Hiện Releases còn EXE cũ **2.9.9**; chỉ khi có release **v1.0.0** kèm EXE đúng tên mới là bản bắt đầu mới.
 
 1. Mở **Releases**, tải tệp `ZMes-Portable-x64-2.9.9.exe` trong mục **Assets**.
 2. Chép EXE vào máy Windows x64 và mở ứng dụng, không cần chạy bộ cài.
@@ -31,9 +35,9 @@ Khả năng nhận lịch sử và media phụ thuộc dữ liệu Zalo cung c�
 https://github.com/duccenter/ZMes/releases/latest/download/latest.json
 ```
 
-**Bản mã nguồn 2.9.10 đang chuẩn bị, chưa phát hành:** nguồn GitHub được tích hợp sẵn và ẩn khỏi Cài đặt. Người dùng chỉ cần bấm **Cập nhật** để kiểm tra, tải, xác minh và mở bản mới. Đây chưa phải hành vi của EXE 2.9.9 đang tải ở Releases.
+**Bản mã nguồn 1.0.0 đang chuẩn bị, chưa phát hành:** nguồn GitHub được tích hợp sẵn và ẩn khỏi Cài đặt. Người dùng chỉ cần bấm **Cập nhật** để kiểm tra, tải, xác minh và mở bản mới. Đây chưa phải hành vi của EXE 2.9.9 đang tải ở Releases.
 
-App chỉ nhận bản phát hành có chữ ký hợp lệ và kiểm tra tệp trước khi mở. Không cần sửa đường dẫn mỗi lần có release mới. Nếu đã dùng phiên bản mới nhất, app sẽ không báo có bản nâng cấp.
+App chỉ nhận bản phát hành có chữ ký hợp lệ và kiểm tra tệp trước khi mở. Không cần sửa đường dẫn mỗi lần có release mới. Nếu đã dùng phiên bản mới nhất, app sẽ không báo có bản nâng cấp trong cùng dòng phát hành.
 
 ## Điểm mới ở 2.9.9
 
@@ -44,9 +48,11 @@ App chỉ nhận bản phát hành có chữ ký hợp lệ và kiểm tra tệp
 
 Bản EXE này đã qua 376 unit tests, 27 self-tests và 187 kiểm tra giao diện bằng dữ liệu QA; không gửi tin thật trong kiểm thử.
 
-## Các cải tiến đang chuẩn bị
+## Các cải tiến cho bản bắt đầu 1.0.0
 
-Chưa có trong EXE 2.9.9: tách tên riêng ở hộp thư khỏi tên hồ sơ dùng trong chiến dịch; kế thừa tắt âm và ghim từ điện thoại theo dữ liệu SDK; nguồn cập nhật tích hợp; cải thiện chuyển hội thoại, cập nhật nền và trải nghiệm media. Chỉ xem là đã phát hành khi có release mới kèm EXE và `latest.json` tương ứng.
+Chưa có trong EXE 2.9.9: tách tên riêng ở hộp thư khỏi tên hồ sơ dùng trong chiến dịch; kế thừa tắt âm và ghim từ điện thoại theo dữ liệu SDK; nguồn cập nhật tích hợp; cache hội thoại có giới hạn và chống phản hồi cũ khi đổi tài khoản; cập nhật phần thay đổi để giữ ô soạn, vị trí đọc và video; bấm trích dẫn để xem tin gốc đã lưu; album, xem ảnh trước/sau và nghe tin thoại trong app. **Chuyển từ bản cũ 2.9.9 sang 1.0.0:** sau khi phát hành, tải EXE 1.0.0 và mở một lần trên cùng máy để dùng tiếp dữ liệu. App cũ so sánh số phiên bản nên không tự chuyển xuống 1.0.0. Từ 1.0.0, dùng nút Cập nhật cho 1.0.1 trở lên.
+
+Chỉ xem là đã phát hành khi có release mới kèm EXE và `latest.json` tương ứng.
 
 ---
 
