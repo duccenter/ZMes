@@ -1,18 +1,18 @@
-# Sử dụng và cập nhật ZMes 1.0.1
+# Sử dụng và cập nhật ZMes 1.0.2
 
 ## Mở ứng dụng
 
-[Tải ZMes 1.0.1 cho Windows x64](https://github.com/duccenter/ZMes/releases/download/v1.0.1/ZMes-Portable-x64-1.0.1.exe). Chép một file EXE sang máy Windows và mở, không cần bộ cài.
+[Tải ZMes 1.0.2 cho Windows x64](https://github.com/duccenter/ZMes/releases/download/v1.0.2/ZMes-Portable-x64-1.0.2.exe). Chép một file EXE sang máy Windows và mở, không cần bộ cài.
 
-## Cập nhật từ 1.0.0
+## Cập nhật lần này từ 1.0.0/1.0.1
 
-1. Bấm **Cập nhật** ở menu trái hoặc **Cài đặt → Cập nhật**.
-2. App tải và kiểm tra chữ ký/hash của bản mới.
-3. App lưu phiên rồi mở EXE mới. Nếu đang gửi, đồng bộ hoặc sao lưu, xử lý tác vụ theo thông báo trước.
+Do lỗi chuyển hướng GitHub trong updater bản cũ, cần tải **ZMes-Portable-x64-1.0.2.exe** thủ công một lần. Đóng app cũ, mở EXE mới trên cùng máy; giữ nguyên thư mục dữ liệu, không cần đăng xuất Zalo. Không thể sửa mã updater đã nằm trong EXE cũ bằng cách thay latest.json.
 
-Không cần nhập link. Kiểm tra nền chỉ thông báo; tải và mở bản mới bắt đầu sau thao tác Cập nhật của người dùng. Không cần Đăng xuất để nâng cấp.
+## Từ bản 1.0.2 trở đi
 
-Client 2.x cũ cần đóng app và mở EXE 1.0.1 thủ công một lần, giữ thư mục dữ liệu hiện tại. Sau đó cập nhật bằng nút trong app.
+Bấm Cập nhật ở sidebar hoặc Cài đặt. App kiểm tra bản mới, tải, xác minh chữ ký/hash rồi lưu phiên và mở EXE mới. Hoàn tất/dừng tác vụ đang bận theo thông báo trước khi cập nhật. Kiểm tra nền chỉ thông báo, không tự mở EXE.
+
+Client 2.x cũ cũng cần mở EXE 1.0.2 thủ công một lần.
 
 ## Hộp thư và đồng bộ
 
