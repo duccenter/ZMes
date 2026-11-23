@@ -1,32 +1,53 @@
-# ZMes — Windows Portable
+# ZMes — Quản lý Zalo trên Windows
 
-Kho phát hành ứng dụng ZMes cho Windows x64. Mã nguồn và dữ liệu tài khoản không được lưu trong repository này.
+ZMes là ứng dụng desktop cho việc nhắn tin và quản lý khách hàng Zalo: xem hội thoại cá nhân/nhóm, phân loại khách hàng, quản lý danh bạ và chiến dịch trong một giao diện.
 
-## Tải và chạy
+**Bản phát hành hiện tại: [2.9.9](https://github.com/duccenter/ZMes/releases/tag/v2.9.9)** · Windows x64 · một tệp EXE portable.
 
-1. Mở [Releases](https://github.com/duccenter/ZMes/releases/latest).
-2. Tải `ZMes-Portable-x64-2.9.9.exe` trong phần Assets.
-3. Chép EXE sang máy Windows x64 và mở để sử dụng, không cần cài đặt.
+[**Tải phiên bản mới nhất**](https://github.com/duccenter/ZMes/releases/latest) · [**Hướng dẫn cập nhật**](UPDATING.md)
 
-Nâng cấp trên cùng máy: đóng bản cũ, không bấm Đăng xuất, rồi mở EXE mới. Dữ liệu lưu riêng ở vị trí đã cấu hình trên máy; EXE không chứa phiên đăng nhập hay lịch sử của người khác.
+## Tải và sử dụng
 
-## Cập nhật trong app
+1. Mở **Releases**, tải tệp `ZMes-Portable-x64-2.9.9.exe` trong mục **Assets**.
+2. Chép EXE vào máy Windows x64 và mở ứng dụng, không cần chạy bộ cài.
+3. Đăng nhập tài khoản Zalo để sử dụng các luồng tương ứng. Một số chức năng cần key VIP.
 
-Mở **Cài đặt → Cập nhật**, nhập URL sau và bấm **Lưu nguồn cập nhật**:
+EXE là tệp chạy; phiên đăng nhập, lịch sử và media được lưu riêng trong thư mục dữ liệu trên PC. Có thể xem vị trí dữ liệu trong **Cài đặt → Lưu trữ**. Chép EXE sang máy khác không tự chuyển lịch sử, phiên đăng nhập hoặc bản quyền. Khi chuyển máy, dùng sao lưu/phục hồi nội dung theo tính năng được cấp và đăng nhập lại tài khoản; key được ràng buộc theo máy.
+
+## Các luồng chính
+
+- **Tin nhắn:** hộp thư cá nhân và nhóm, lọc theo tài khoản, hội thoại ghim, nhóm phân loại, số tin gửi tới chưa đọc; trả lời, chuyển tiếp, sao chép và thu hồi khi Zalo cho phép.
+- **Khách hàng/CRM:** danh bạ, nhóm danh sách ZMes, nhãn, phân luồng và số đơn nhập trong CRM.
+- **Nội dung:** mẫu tin, biến cá nhân hóa, ảnh/file, hàng đợi và lịch sử thao tác. Gửi thật chỉ bắt đầu khi người dùng thực hiện thao tác gửi.
+- **Lưu trữ:** dữ liệu trên PC, media được tải/lưu theo luồng hỗ trợ, sao lưu/phục hồi và lựa chọn thư mục theo tính năng được cấp.
+
+Khả năng nhận lịch sử và media phụ thuộc dữ liệu Zalo cung cấp cho phiên đăng nhập. Trạng thái tải gần đây không có nghĩa đã lấy toàn bộ lịch sử trên điện thoại; dữ liệu chưa tải về máy không được xem là đã lưu đầy đủ.
+
+## Cập nhật ứng dụng
+
+**EXE 2.9.9 đang phát hành:** nhập nguồn trong **Cài đặt → Cập nhật**, bấm **Lưu nguồn cập nhật**, rồi **Kiểm tra cập nhật**. Khi có bản cao hơn, tải và mở bản mới theo hướng dẫn của app.
 
 ```text
 https://github.com/duccenter/ZMes/releases/latest/download/latest.json
 ```
 
-Bấm **Kiểm tra cập nhật**. Khi có bản cao hơn, chọn **Tải bản mới**, chờ kiểm tra chữ ký/tệp rồi chọn **Mở bản mới & khởi động lại**. App không tự tải hoặc tự mở bản mới khi chưa có thao tác người dùng.
+**Bản mã nguồn 2.9.10 đang chuẩn bị, chưa phát hành:** nguồn GitHub được tích hợp sẵn và ẩn khỏi Cài đặt. Người dùng chỉ cần bấm **Cập nhật** để kiểm tra, tải, xác minh và mở bản mới. Đây chưa phải hành vi của EXE 2.9.9 đang tải ở Releases.
 
-Bản 2.9.8 trở lên hỗ trợ cập nhật theo URL này. App đang dùng đúng phiên bản mới nhất sẽ không thông báo nâng cấp.
+App chỉ nhận bản phát hành có chữ ký hợp lệ và kiểm tra tệp trước khi mở. Không cần sửa đường dẫn mỗi lần có release mới. Nếu đã dùng phiên bản mới nhất, app sẽ không báo có bản nâng cấp.
 
-## 2.9.9
+## Điểm mới ở 2.9.9
 
-- Giữ vị trí đang đọc khi ảnh/video hoặc lịch sử thay đổi chiều cao.
+- Giữ vị trí đọc khi ảnh/video hoặc lịch sử làm thay đổi chiều cao khung chat.
 - Tiếp tục bám tin mới khi đang ở cuối hội thoại.
-- Thêm nút **Tin mới nhất** để xuống cuối ngay khi đang đọc phía trên.
-- Giữ bản nháp và luồng nhắc thành viên nhóm bằng `@` của bản trước.
+- Nút **Tin mới nhất** đưa về cuối ngay khi đang đọc phía trên.
+- Giữ bản nháp và luồng nhắc thành viên nhóm bằng `@`.
 
-Bản này đã qua 376 kiểm thử chức năng, 27 self-test và 187 kiểm tra giao diện trên EXE, với dữ liệu QA. Không thực hiện gửi tin nhắn thật trong kiểm thử.
+Bản EXE này đã qua 376 unit tests, 27 self-tests và 187 kiểm tra giao diện bằng dữ liệu QA; không gửi tin thật trong kiểm thử.
+
+## Các cải tiến đang chuẩn bị
+
+Chưa có trong EXE 2.9.9: tách tên riêng ở hộp thư khỏi tên hồ sơ dùng trong chiến dịch; kế thừa tắt âm và ghim từ điện thoại theo dữ liệu SDK; nguồn cập nhật tích hợp; cải thiện chuyển hội thoại, cập nhật nền và trải nghiệm media. Chỉ xem là đã phát hành khi có release mới kèm EXE và `latest.json` tương ứng.
+
+---
+
+Repository công khai này chỉ chứa **hướng dẫn và tệp phát hành**. Mã nguồn riêng, khóa ký, key bản quyền, phiên đăng nhập và dữ liệu khách hàng không được đăng tại đây.
