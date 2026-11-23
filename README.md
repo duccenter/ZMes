@@ -4,7 +4,7 @@
 
 ZMes giúp quản lý tin nhắn, danh bạ và khách hàng Zalo trong một giao diện desktop gọn gàng. Phiên bản **1.0.0** là mốc bắt đầu chính thức của sản phẩm; các bản 2.x thuộc giai đoạn phát triển trước khi chuẩn hóa số phiên bản.
 
-> **Tải ứng dụng:** EXE 1.0.0 đã build xong và vượt kiểm thử trên Windows; tệp được bàn giao trực tiếp. Chưa có bản 1.0.0 trên GitHub Releases. Chỉ tải bản mới khi thấy release **v1.0.0** và tệp **ZMes-Portable-x64-1.0.0.exe** tương ứng.
+> **[Tải ZMes 1.0.0 cho Windows x64](https://github.com/duccenter/ZMes/releases/download/v1.0.0/ZMes-Portable-x64-1.0.0.exe)** — một file EXE portable, khoảng 113 MB. Đã phát hành tại [Releases v1.0.0](https://github.com/duccenter/ZMes/releases/tag/v1.0.0).
 
 [Xem Releases](https://github.com/duccenter/ZMes/releases) · [Hướng dẫn sử dụng và cập nhật](UPDATING.md)
 
@@ -30,7 +30,7 @@ Một số chức năng cần key VIP. Bản miễn phí dùng một tài khoả
 
 ## Chạy trên Windows
 
-Dùng EXE 1.0.0 đã nhận hoặc tải từ release tương ứng khi có:
+Tải EXE 1.0.0 từ link trên hoặc từ Assets trong release v1.0.0:
 
 1. Chép **ZMes-Portable-x64-1.0.0.exe** vào máy Windows x64.
 2. Mở EXE, không cần chạy bộ cài.
