@@ -1,35 +1,37 @@
-# Cập nhật ZMes trên Windows
+# Sử dụng và cập nhật ZMes 1.0.0
 
-**1.0.0 là mốc bắt đầu mới, chưa có EXE phát hành.** Các bản 2.x là lịch sử trước khi chuẩn hóa số phiên bản. Sau khi có release v1.0.0, tải và mở EXE mới một lần để chuyển từ bản cũ; giữ nguyên thư mục dữ liệu. Cơ chế cập nhật mới sẽ bỏ qua các bản 2.x cũ và cập nhật tiếp 1.0.1, 1.0.2… trong dòng mới.
+## Mở ứng dụng
 
-## Bản 2.9.9 đang phát hành
+ZMes cho Windows x64 dùng một tệp **ZMes-Portable-x64-1.0.0.exe**. Chép tệp vào máy và mở, không cần bộ cài. Tệp 1.0.0 đã build và kiểm thử, được bàn giao trực tiếp; chỉ tải trên GitHub khi có release v1.0.0 đúng tên.
 
-1. Mở **Cài đặt → Cập nhật**.
-2. Nhập link bên dưới, bật/tắt tự kiểm tra theo nhu cầu, rồi bấm **Lưu nguồn cập nhật**.
-3. Bấm **Kiểm tra cập nhật**. Nếu có phiên bản cao hơn, bấm **Tải bản mới**.
-4. Chờ app kiểm tra tệp, chọn **Mở bản mới & khởi động lại** và xác nhận. Hoàn tất hoặc dừng tác vụ đang chạy nếu app yêu cầu.
+## Cập nhật bằng một nút
 
-```text
-https://github.com/duccenter/ZMes/releases/latest/download/latest.json
-```
+1. Bấm **Cập nhật** ở menu trái hoặc **Cài đặt → Cập nhật**.
+2. App kiểm tra, tải và xác minh bản mới.
+3. App lưu phiên đang dùng rồi mở EXE mới. Nếu đang gửi, đồng bộ hoặc sao lưu, hoàn tất/dừng tác vụ theo thông báo rồi bấm cập nhật lại.
 
-Nếu đang dùng đúng bản mới nhất, app báo không có bản mới. Bản 2.9.7 trở xuống cần tải EXE mới và mở một lần để có tính năng cập nhật.
+Không cần nhập link nguồn. Có thể bật/tắt tự kiểm tra phiên bản trong Cài đặt; lựa chọn được lưu ngay. Kiểm tra nền chỉ thông báo, không tự tải hoặc mở EXE.
 
-## Từ bản 1.0.0 — đang chuẩn bị, chưa phát hành
+## Chuyển từ bản 2.x
 
-Nguồn trên được tích hợp sẵn, không hiển thị ô nhập link. Bấm **Cập nhật** ở sidebar hoặc trong **Cài đặt → Cập nhật**: app kiểm tra → tải → xác minh → lưu phiên → mở EXE mới. Có thanh tiến trình, hủy tải và thông báo lỗi để thử lại. Nếu tác vụ đang bận, bản đã tải được giữ và có thể bấm cập nhật lại khi sẵn sàng.
+1. Nhận/tải EXE **1.0.0** sau khi có bản phát hành.
+2. Đóng bản cũ và mở EXE 1.0.0 trên cùng máy; giữ vị trí dữ liệu hiện tại.
+3. Không cần bấm Đăng xuất chỉ để nâng cấp.
 
-Tự kiểm tra nền chỉ thông báo có phiên bản mới. App bắt đầu tải/mở bản mới sau thao tác **Cập nhật** của người dùng. Phiên bản này chưa được đưa lên Releases; EXE 2.9.9 vẫn làm theo hướng dẫn ở trên.
+Do đặt lại số phiên bản, client 2.x cũ chưa thể tự chuyển về 1.0.0. Sau lần chuyển đầu, các bản 1.0.1, 1.0.2… cập nhật bằng nút trong app. App mới sẽ không nhận nhầm EXE 2.x cũ thành bản nâng cấp.
 
-## Nâng cấp thủ công và chuyển máy
+## Chuyển máy và dữ liệu
 
-- Nâng cấp cùng máy: đóng bản cũ, giữ nguyên dữ liệu và mở EXE mới. Không cần bấm Đăng xuất chỉ để cập nhật.
-- Chuyển máy: EXE không chứa lịch sử/phiên của máy cũ. Sao lưu/phục hồi nội dung bằng tính năng phù hợp và đăng nhập lại Zalo. Bản quyền gắn với máy, không đi theo bản sao EXE hay bản sao lưu.
-- Tệp tải chưa đủ, sai chữ ký hoặc sai mã kiểm tra sẽ không được app mở. Chỉ tải từ trang Releases chính thức.
+- EXE chỉ là tệp chạy; không tự mang theo tài khoản, lịch sử và media của máy cũ.
+- Vị trí dữ liệu hiển thị ở **Cài đặt → Lưu trữ**.
+- Dùng **Sao lưu & Phục hồi** để chuyển nội dung/media đã lưu theo tính năng được cấp, rồi đăng nhập lại Zalo.
+- Key VIP gắn với phần cứng máy, không đi theo EXE hay bản sao lưu.
 
-## Khi chưa cập nhật được
+## Khi cập nhật chưa được
 
-- Kiểm tra kết nối Internet và thử lại.
-- Xem [Releases mới nhất](https://github.com/duccenter/ZMes/releases/latest) có đủ EXE và `latest.json` hay chưa.
-- Nếu báo đang bận: hoàn tất/dừng đồng bộ, gửi hoặc sao lưu rồi thử lại.
-- Nếu báo chữ ký/tệp không hợp lệ: không sửa JSON; tải lại bản chính thức hoặc chờ nhà phát hành sửa gói phát hành.
+- Kiểm tra Internet rồi thử lại.
+- Nếu app đang bận, hoàn tất/dừng tác vụ được thông báo.
+- Nếu báo chữ ký hoặc tệp không hợp lệ, không sửa JSON/tệp tải; dùng đúng bản phát hành chính thức.
+- Nếu chưa có bản cao hơn trong dòng 1.x, app báo đang dùng phiên bản mới nhất.
+
+[Xem các bản phát hành](https://github.com/duccenter/ZMes/releases)
