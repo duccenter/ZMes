@@ -2,7 +2,7 @@
 
 ## Mở ứng dụng
 
-ZMes cho Windows x64 dùng một tệp **ZMes-Portable-x64-1.0.0.exe**. Chép tệp vào máy và mở, không cần bộ cài. Tệp 1.0.0 đã build và kiểm thử, được bàn giao trực tiếp; chỉ tải trên GitHub khi có release v1.0.0 đúng tên.
+ZMes cho Windows x64 dùng một tệp **ZMes-Portable-x64-1.0.0.exe**. Chép tệp vào máy và mở, không cần bộ cài. Bản 1.0.0 đã phát hành tại [GitHub Releases](https://github.com/duccenter/ZMes/releases/tag/v1.0.0). [Tải EXE tại đây](https://github.com/duccenter/ZMes/releases/download/v1.0.0/ZMes-Portable-x64-1.0.0.exe).
 
 ## Cập nhật bằng một nút
 
