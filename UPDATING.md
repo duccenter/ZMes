@@ -1,5 +1,7 @@
 # Cập nhật ZMes trên Windows
 
+**1.0.0 là mốc bắt đầu mới, chưa có EXE phát hành.** Các bản 2.x là lịch sử trước khi chuẩn hóa số phiên bản. Sau khi có release v1.0.0, tải và mở EXE mới một lần để chuyển từ bản cũ; giữ nguyên thư mục dữ liệu. Cơ chế cập nhật mới sẽ bỏ qua các bản 2.x cũ và cập nhật tiếp 1.0.1, 1.0.2… trong dòng mới.
+
 ## Bản 2.9.9 đang phát hành
 
 1. Mở **Cài đặt → Cập nhật**.
@@ -13,7 +15,7 @@ https://github.com/duccenter/ZMes/releases/latest/download/latest.json
 
 Nếu đang dùng đúng bản mới nhất, app báo không có bản mới. Bản 2.9.7 trở xuống cần tải EXE mới và mở một lần để có tính năng cập nhật.
 
-## Từ bản 2.9.10 — đang chuẩn bị, chưa phát hành
+## Từ bản 1.0.0 — đang chuẩn bị, chưa phát hành
 
 Nguồn trên được tích hợp sẵn, không hiển thị ô nhập link. Bấm **Cập nhật** ở sidebar hoặc trong **Cài đặt → Cập nhật**: app kiểm tra → tải → xác minh → lưu phiên → mở EXE mới. Có thanh tiến trình, hủy tải và thông báo lỗi để thử lại. Nếu tác vụ đang bận, bản đã tải được giữ và có thể bấm cập nhật lại khi sẵn sàng.
 
