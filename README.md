@@ -1,59 +1,46 @@
 # ZMes — Quản lý Zalo trên Windows
 
-**Phiên bản 1.0.0 · Windows x64 · Một file EXE portable**
+**Phiên bản 1.0.1 · Windows x64 · Một file EXE portable**
 
-ZMes giúp quản lý tin nhắn, danh bạ và khách hàng Zalo trong một giao diện desktop gọn gàng. Phiên bản **1.0.0** là mốc bắt đầu chính thức của sản phẩm; các bản 2.x thuộc giai đoạn phát triển trước khi chuẩn hóa số phiên bản.
+ZMes giúp quản lý tin nhắn, danh bạ và khách hàng Zalo trong giao diện desktop gọn gàng.
 
-> **[Tải ZMes 1.0.0 cho Windows x64](https://github.com/duccenter/ZMes/releases/download/v1.0.0/ZMes-Portable-x64-1.0.0.exe)** — một file EXE portable, khoảng 113 MB. Đã phát hành tại [Releases v1.0.0](https://github.com/duccenter/ZMes/releases/tag/v1.0.0).
+**[Tải ZMes 1.0.1](https://github.com/duccenter/ZMes/releases/download/v1.0.1/ZMes-Portable-x64-1.0.1.exe)** · [Releases](https://github.com/duccenter/ZMes/releases) · [Hướng dẫn và cập nhật](UPDATING.md)
 
-[Xem Releases](https://github.com/duccenter/ZMes/releases) · [Hướng dẫn sử dụng và cập nhật](UPDATING.md)
+## Mới ở 1.0.1
+
+- Mở app vào **Tin nhắn**. **Hộp thư** mặc định của mọi tài khoản không chứa hội thoại đã chuyển vào nhóm riêng; chọn **Tất cả** để xem đầy đủ.
+- **Báo cáo** gộp Thống kê và Lịch sử, nằm dưới menu chính.
+- Popup **Đồng bộ** gọn, giữ mở và có cuộn riêng. Mỗi tài khoản có **Tải gần đây · Từ điện thoại · Tài khoản**, tiến độ và số tin/media đã lưu của chính tài khoản đó.
+- Sửa ô chuyển tài khoản bị cắt/lệch; menu chuột phải căn trái thống nhất, chia nhóm thao tác rõ ràng.
+- Gia cố IPC, khóa debug trong bản phân phối, kiểm tra toàn vẹn tài nguyên và loại mã kiểm thử/source map khỏi gói phát hành.
 
 ## Tính năng chính
 
-- **Hộp thư Zalo:** hội thoại cá nhân và nhóm, lọc theo tài khoản, số tin đến chưa đọc, tìm kiếm, ghim và nhóm phân loại hội thoại.
-- **Nhắn tin:** văn bản, ảnh, file, emoji, sticker, tương tác; trả lời có trích dẫn, chuyển tiếp, sao chép và thu hồi theo khả năng Zalo cho phép.
-- **Ảnh và media:** album ảnh, xem ảnh trước/sau, video và trình nghe tin thoại trong app; lưu dữ liệu media được tải về PC.
-- **Khách hàng và CRM:** nhãn tùy chỉnh, phân luồng chăm sóc, ghi nhận tổng đơn; quản lý khách theo từng tài khoản.
-- **Danh bạ và chiến dịch:** quét bạn bè/nhóm, danh sách CSV, nhóm người nhận ZMes, mẫu tin, biến cá nhân hóa, ảnh đính kèm và theo dõi hàng đợi.
-- **Dữ liệu và cài đặt:** duy trì phiên đăng nhập, chọn vị trí lưu dữ liệu, sao lưu/phục hồi nội dung và media theo tính năng được cấp.
+- Hộp thư cá nhân và nhóm, lọc theo tài khoản, số tin đến chưa đọc, tìm kiếm, ghim và nhóm phân loại.
+- Văn bản, ảnh, file, emoji, sticker, tương tác; trả lời, chuyển tiếp, sao chép và thu hồi theo khả năng Zalo cung cấp.
+- Album, video và tin thoại trong app; lưu media đã tải về PC.
+- CRM: nhãn, phân luồng chăm sóc, tổng đơn nhập thủ công, dữ liệu theo tài khoản.
+- Quét bạn bè/nhóm, danh sách CSV, nhóm người nhận ZMes, mẫu tin và hàng đợi chiến dịch.
+- Duy trì phiên đăng nhập, chọn thư mục dữ liệu, sao lưu/phục hồi nội dung và media theo tính năng được cấp.
 
-Một số chức năng cần key VIP. Bản miễn phí dùng một tài khoản; gửi chiến dịch vào nhiều nhóm, nhập/xuất CSV, nhóm danh sách ZMes, nhãn tùy chỉnh và các chức năng nâng cấp được đánh dấu trong app.
+Bản miễn phí dùng một tài khoản. Các chức năng nâng cấp được đánh dấu VIP trong app.
 
-## Trải nghiệm mới ở 1.0.0
+## Chạy và cập nhật
 
-- Chuyển lại hội thoại qua cache có giới hạn, sau đó đối soát dữ liệu đã lưu; chặn phản hồi cũ khi đổi tài khoản hoặc hội thoại.
-- Cập nhật phần thay đổi khi có tin mới, giữ nội dung đang soạn, vị trí đọc và player media đang mở.
-- Nút **Tin mới nhất** đưa về cuối; bấm trích dẫn để tìm tin gốc đã lưu trên máy.
-- Tên hiển thị trong hộp thư dùng tên riêng/biệt danh của tài khoản; tên khách dùng cho chiến dịch lấy tên hồ sơ Zalo khi có.
-- Kế thừa tắt âm và ghim từ dữ liệu SDK cung cấp, đồng thời giữ lựa chọn ghim riêng ở ZMes.
-- Nguồn cập nhật GitHub tích hợp sẵn: người dùng chỉ bấm **Cập nhật**, không cần nhập đường dẫn.
+1. Tải **ZMes-Portable-x64-1.0.1.exe** rồi mở trên Windows x64; không cần bộ cài.
+2. Nếu đang dùng 1.0.0, bấm **Cập nhật** ở sidebar hoặc Cài đặt. App kiểm tra, tải, xác minh rồi lưu phiên và mở bản mới.
+3. Nếu đang gửi/đồng bộ/sao lưu, xử lý tác vụ theo thông báo trước khi khởi động lại.
 
-## Chạy trên Windows
+EXE chỉ là tệp chạy. Dữ liệu nằm riêng tại **Cài đặt → Lưu trữ**. Chuyển máy bằng sao lưu/phục hồi và đăng nhập lại Zalo; key VIP gắn với máy.
 
-Tải EXE 1.0.0 từ link trên hoặc từ Assets trong release v1.0.0:
+Bản 1.0.0 là mốc bắt đầu chính thức; các bản 2.x cũ cần mở EXE dòng 1.x thủ công một lần. Các bản 1.0.x cập nhật qua nút trong app.
 
-1. Chép **ZMes-Portable-x64-1.0.0.exe** vào máy Windows x64.
-2. Mở EXE, không cần chạy bộ cài.
-3. Đăng nhập Zalo và bắt đầu sử dụng.
+## Kiểm tra và dữ liệu
 
-EXE không chứa lịch sử hay phiên tài khoản. Dữ liệu nằm riêng tại vị trí hiển thị trong **Cài đặt → Lưu trữ**. Chép EXE sang máy khác để chạy; nếu cần mang theo dữ liệu, dùng sao lưu/phục hồi và đăng nhập lại Zalo. Key VIP ràng buộc với máy, không đi theo bản sao EXE hoặc bản sao lưu.
+Typecheck/lint, 411 unit tests, 27 self-tests và 199 kiểm tra UI đã đạt trong runtime QA riêng; 121 bố cục hiển thị. Gói rút gọn được đối chiếu nguồn, kiểm tra fuses/integrity và worker từ ASAR. Không gửi tin thật trong kiểm thử phát hành.
 
-## Cập nhật
-
-Trong ZMes 1.0.0, bấm **Cập nhật** ở sidebar hoặc **Cài đặt → Cập nhật**. App kiểm tra bản mới, tải tệp, xác minh rồi lưu phiên và mở phiên bản mới. Nếu đang có tác vụ cần hoàn tất, app báo để xử lý trước khi khởi động lại.
-
-Kiểm tra tự động chỉ thông báo có bản mới; tải và mở bản mới bắt đầu sau thao tác **Cập nhật** của người dùng.
-
-**Chuyển từ các bản 2.x cũ:** mở EXE 1.0.0 thủ công một lần sau khi nhận bản mới, giữ nguyên thư mục dữ liệu. Từ đó dùng nút Cập nhật cho các bản 1.0.1 trở lên.
-
-## Kiểm thử bản build
-
-Bản 1.0.0 đã đạt **403 unit tests, 27 self-tests và 189 kiểm tra giao diện trên EXE portable**, cùng 121 bố cục hiển thị. Kiểm thử dùng dữ liệu QA riêng, không gửi tin thật.
-
-## Lưu ý về lịch sử và media
-
-Khả năng lấy lịch sử/media phụ thuộc dữ liệu Zalo cung cấp cho phiên đăng nhập. **Tải gần đây** và **Từ điện thoại** là hai luồng riêng; không coi số tin/lô đã nhận là đã khôi phục toàn bộ lịch sử. App giữ phần dữ liệu đã lưu khi đồng bộ gián đoạn.
+Phiên đăng nhập dùng Windows DPAPI. Tin nhắn, media và bản sao lưu chưa mã hóa toàn bộ; bảo vệ tài khoản Windows và thư mục dữ liệu. Việc lấy lịch sử/media phụ thuộc dữ liệu Zalo cung cấp; không coi số lô đã nhận là đã khôi phục toàn bộ lịch sử.
 
 ---
 
-Repository này dùng cho **hướng dẫn và bản phát hành**. Mã nguồn riêng, khóa ký, key bản quyền, phiên đăng nhập và dữ liệu khách hàng được giữ riêng.
+Repository này chỉ chứa **hướng dẫn và bản phát hành**. Mã nguồn, khóa ký, key cấp phép và dữ liệu khách hàng được giữ riêng.
