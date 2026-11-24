@@ -1,4 +1,4 @@
-> Bản hiện tại: **1.0.7** — Công cụ tin nhắn, tìm toàn lịch sử, ngày tin cũ và giao diện gọn hơn.
+> Bản hiện tại: **1.0.8** — Sửa số chưa đọc khi dùng điện thoại và nhiều thiết bị.
 
 # Cập nhật ZMes
 
@@ -42,3 +42,7 @@ Luồng mới đã kiểm thử với dữ liệu mô phỏng và mã đóng gó
 - Ô tìm trong Tin nhắn đọc toàn lịch sử đã lưu trên PC, kể cả tin cũ ngoài trang đang xem. Có kết quả liên hệ và tin nhắn riêng, tiến độ tìm, từ khóa tô sáng và nút tìm lại khi cần. Tài khoản và các bộ lọc đang chọn tiếp tục được áp dụng; tìm trên mọi nhóm hộp thư để tránh bỏ sót hội thoại đã phân nhóm.
 - Tin hôm nay chỉ hiện giờ; tin cũ có ngày và giờ. Chỉ dữ liệu đã đồng bộ về PC mới có thể được tìm và mở lại.
 - Cài đặt → Thông tin ứng dụng có QR để truy cập app Diticoms. ZMes miễn phí 100%; key mở tính năng được cấp miễn phí theo phần cứng, không cần mua key.
+
+## Sau khi lên 1.0.8
+
+Giữ ZMes kết nối tài khoản. App đối soát huy hiệu còn sót khi kết nối lại; khi nhận sự kiện đã đọc hoặc lượt trả lời trực tiếp trên điện thoại trong hội thoại cá nhân, số cũ được giảm đến đúng mốc đó. Tin đến sau mốc vẫn chưa đọc. Không cần đăng xuất hoặc xóa dữ liệu. Các hội thoại nhóm dựa vào sự kiện đã đọc xác định đúng tài khoản.
