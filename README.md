@@ -4,8 +4,8 @@ Phần mềm Windows miễn phí, được phát triển bởi Diticoms. Quản 
 
 ## Cài đặt và chạy
 
-- **Setup:** [ZMes-Setup-x64-1.0.3.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.3/ZMes-Setup-x64-1.0.3.exe). Cài đặt theo hướng dẫn, đọc và đồng ý điều khoản, chọn thư mục. Có shortcut và mục gỡ cài đặt.
-- **Portable:** [ZMes-Portable-x64-1.0.3.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.3/ZMes-Portable-x64-1.0.3.exe). Chép một EXE sang máy Windows x64 và mở. EXE không tự mang theo dữ liệu hoặc phiên đăng nhập từ máy khác.
+- **Setup:** [ZMes-Setup-x64-1.0.4.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.4/ZMes-Setup-x64-1.0.4.exe). Cài đặt theo hướng dẫn, đọc và đồng ý điều khoản, chọn thư mục. Có shortcut và mục gỡ cài đặt.
+- **Portable:** [ZMes-Portable-x64-1.0.4.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.4/ZMes-Portable-x64-1.0.4.exe). Chép một EXE sang máy Windows x64 và mở. EXE không tự mang theo dữ liệu hoặc phiên đăng nhập từ máy khác.
 
 Dữ liệu làm việc nằm riêng với thư mục chương trình. Xem vị trí thực tế trong Cài đặt. Cài lại/cập nhật và gỡ cài đặt thông thường giữ dữ liệu. Mã kích hoạt gắn với phần cứng; sao lưu không tự chuyển mã sang máy mới.
 
@@ -13,9 +13,14 @@ Dữ liệu làm việc nằm riêng với thư mục chương trình. Xem vị 
 
 Bấm **Cập nhật** trên sidebar hoặc trong Cài đặt. Ứng dụng tải gói đúng loại, xác minh chữ ký và SHA-256 trước khi mở. Bản Setup mở trình cài đặt mới; bản Portable mở EXE Portable mới. Xem [UPDATING.md](UPDATING.md).
 
-## Phiên bản 1.0.3
+## Phiên bản 1.0.4
 
-Bổ sung Setup với điều khoản tiếng Việt, tự lưu mốc đồng bộ và thử lại lô lỗi; hiển thị danh thiếp có nút Nhắn tin; sửa luồng chuyển menu Tin nhắn khi lỗi tải dữ liệu. Việc đồng bộ phụ thuộc dữ liệu và kết nối của Zalo; không cam kết khôi phục tin nền tảng không cung cấp.
+- **Nội dung nhanh:** lưu tin nhắn mẫu, sản phẩm có giá/mô tả/tối đa 2 ảnh và ghi chú riêng.
+- Gõ `/` hoặc bấm **Mẫu** trong ô chat để tìm; dùng `/sp01`, `/chao` hay lệnh tự đặt. Enter chèn vào bản nháp, bạn xem lại rồi mới gửi.
+- Ghi chú nội bộ không xuất hiện trong gợi ý lệnh hoặc danh sách mẫu chiến dịch.
+- Sửa hiển thị danh thiếp Zalo: đọc đúng UID chuỗi dài, điện thoại trong metadata; hiện thẻ liên hệ, ảnh và nút **Nhắn tin**. Danh thiếp đã lưu được nhận diện lại khi mở hội thoại.
+
+Đã đạt 452 kiểm thử, 28 kiểm tra Electron và 201 kiểm tra giao diện trong môi trường QA; không gửi tin thật khi kiểm thử.
 
 Đây là kho bản phát hành. Mã nguồn, khóa ký, mã kích hoạt và dữ liệu người dùng không được công khai tại đây. ZMes là ứng dụng độc lập, không phải sản phẩm chính thức của Zalo/VNG.
 
