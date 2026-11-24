@@ -1,4 +1,4 @@
-> Bản hiện tại: **1.0.6** — Đồng bộ trạng thái đã đọc, số chưa đọc và thông báo tương ứng.
+> Bản hiện tại: **1.0.7** — Công cụ tin nhắn, tìm toàn lịch sử, ngày tin cũ và giao diện gọn hơn.
 
 # Cập nhật ZMes
 
@@ -21,7 +21,7 @@ Nếu đang dùng Portable và muốn dùng các tùy chọn Windows, tải bả
 
 ## Dùng Nội dung nhanh
 
-Mở **Nội dung nhanh**, chọn Tin nhắn mẫu hoặc Sản phẩm, nhập nội dung/giá/ảnh và đặt lệnh như `/sp01`. Trong hội thoại, gõ `/` để chọn hoặc bấm **Mẫu**. Enter chỉ chèn nội dung và ảnh vào bản nháp; kiểm tra người nhận rồi mới gửi. Ghi chú riêng chỉ để xem nội bộ, không được đưa vào gợi ý gửi hoặc chiến dịch.
+Mở **Nội dung nhanh**, chọn Tin nhắn mẫu hoặc Sản phẩm, nhập nội dung/giá/ảnh và đặt lệnh như `/sp01`. Trong hội thoại, gõ `/` để chọn hoặc bấm biểu tượng **Mẫu trả lời nhanh**. Enter chỉ chèn nội dung và ảnh vào bản nháp; kiểm tra người nhận rồi mới gửi. Ghi chú riêng chỉ để xem nội bộ, không được đưa vào gợi ý gửi hoặc chiến dịch.
 
 ## Chuyển dữ liệu và tin nhắn ghim
 
@@ -34,3 +34,11 @@ Khi mở hội thoại có tin ghim, thanh Tin nhắn đã ghim xuất hiện �
 Sau khi cập nhật, giữ ZMes kết nối và mở một hội thoại có tin chưa đọc trên Zalo điện thoại. Khi Zalo gửi xác nhận đã xem đủ thông tin, số tương ứng ở ZMes được giảm; các tin đến sau mốc đó vẫn chưa đọc. Bản Setup cũng đóng thông báo Windows của tin đã đọc. Không cần bấm đánh dấu đã đọc thêm trên desktop.
 
 Luồng mới đã kiểm thử với dữ liệu mô phỏng và mã đóng gói; chưa xác nhận trên tài khoản mobile thật. Nếu Zalo không cung cấp receipt hoặc app ngoại tuyến khi bạn đọc, trạng thái local có thể chưa cập nhật; app giữ số hiện tại thay vì tự xóa nhắc nhở chưa đọc.
+
+
+## Sau khi lên 1.0.7
+
+- Mở **Công cụ khác** (dấu ba chấm trên thanh soạn) để dùng gửi số tài khoản, nhắc hẹn, tin nhanh Zalo, sản phẩm, My Documents, GIF, vẽ hình, kiểu chữ và liên kết. Danh thiếp/ảnh/file/emoji/sticker vẫn có icon riêng.
+- Ô tìm trong Tin nhắn đọc toàn lịch sử đã lưu trên PC, kể cả tin cũ ngoài trang đang xem. Có kết quả liên hệ và tin nhắn riêng, tiến độ tìm, từ khóa tô sáng và nút tìm lại khi cần. Tài khoản và các bộ lọc đang chọn tiếp tục được áp dụng; tìm trên mọi nhóm hộp thư để tránh bỏ sót hội thoại đã phân nhóm.
+- Tin hôm nay chỉ hiện giờ; tin cũ có ngày và giờ. Chỉ dữ liệu đã đồng bộ về PC mới có thể được tìm và mở lại.
+- Cài đặt → Thông tin ứng dụng có QR để truy cập app Diticoms. ZMes miễn phí 100%; key mở tính năng được cấp miễn phí theo phần cứng, không cần mua key.
