@@ -4,8 +4,8 @@ Phần mềm Windows miễn phí, được phát triển bởi Diticoms. Quản 
 
 ## Cài đặt và chạy
 
-- **Setup:** [ZMes-Setup-x64-1.0.5.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.5/ZMes-Setup-x64-1.0.5.exe). Cài đặt theo hướng dẫn, đọc và đồng ý điều khoản, chọn thư mục. Có shortcut và mục gỡ cài đặt.
-- **Portable:** [ZMes-Portable-x64-1.0.5.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.5/ZMes-Portable-x64-1.0.5.exe). Chép một EXE sang máy Windows x64 và mở. EXE không tự mang theo dữ liệu hoặc phiên đăng nhập từ máy khác.
+- **Setup:** [ZMes-Setup-x64-1.0.6.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.6/ZMes-Setup-x64-1.0.6.exe). Cài đặt theo hướng dẫn, đọc và đồng ý điều khoản, chọn thư mục. Có shortcut và mục gỡ cài đặt.
+- **Portable:** [ZMes-Portable-x64-1.0.6.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.6/ZMes-Portable-x64-1.0.6.exe). Chép một EXE sang máy Windows x64 và mở. EXE không tự mang theo dữ liệu hoặc phiên đăng nhập từ máy khác.
 
 Dữ liệu làm việc nằm riêng với thư mục chương trình. Xem vị trí thực tế trong Cài đặt. Cài lại/cập nhật và gỡ cài đặt thông thường giữ dữ liệu. Mã kích hoạt gắn với phần cứng; sao lưu không tự chuyển mã sang máy mới.
 
@@ -13,14 +13,16 @@ Dữ liệu làm việc nằm riêng với thư mục chương trình. Xem vị 
 
 Bấm **Cập nhật** trên sidebar hoặc trong Cài đặt. Ứng dụng tải gói đúng loại, xác minh chữ ký và SHA-256 trước khi mở. Bản Setup mở trình cài đặt mới; bản Portable mở EXE Portable mới. Xem [UPDATING.md](UPDATING.md).
 
-## Phiên bản 1.0.5
+## Phiên bản 1.0.6
 
-- **Chuyển dữ liệu lớn:** sửa lỗi với SQLite trên 2 GB, sao chép và kiểm tra trong nền. Hiện phần trăm, dung lượng, tốc độ, thời gian đã chạy và còn lại ước tính.
-- Giữ dữ liệu gốc và đường dẫn cũ nếu chuyển chưa hoàn tất; báo rõ lỗi dung lượng/quyền truy cập. Nếu lần trước bị lỗi, hãy chọn thư mục đích trống mới; app không ghi đè bản sao dở.
-- **Tin nhắn ghim trong hội thoại:** hiển thị ghim từ Zalo cho cá nhân và nhóm; làm mới, giữ bản đã lưu khi mất mạng và bấm tìm tin gốc có trên máy. Tách riêng với ghim cả hội thoại trong ZMes.
-- Giữ Nội dung nhanh: tin nhắn mẫu, sản phẩm có giá/ảnh và ghi chú riêng. Gõ `/` hoặc bấm **Mẫu** để chèn vào bản nháp rồi xem lại trước khi gửi.
+- **Đồng bộ đã đọc:** khi nhận xác nhận đã xem từ Zalo, cập nhật số chưa đọc đúng tài khoản và hội thoại cá nhân/nhóm; tin mới hơn chưa đọc vẫn được giữ.
+- Lưu mốc đã đọc để tin cũ đến trễ không tăng số hoặc thông báo lại sau khi mở app. Huy hiệu hội thoại, hộp thư, ghim và sidebar cập nhật cùng nhau.
+- Bản Setup đóng thông báo Windows của tin đã đọc, giữ thông báo của tin mới hơn.
+- Giữ các tính năng trước: chuyển dữ liệu lớn với tiến trình/thời gian, tin ghim trong hội thoại, Nội dung nhanh và sản phẩm có giá/ảnh.
 
-Đã đạt 462 unit tests, phép thử tệp trên 2 GB chạy riêng, 28 kiểm tra Electron, 202 kiểm tra giao diện và 13 kiểm tra payload Setup. Tin ghim đã kiểm thử bằng dữ liệu mô phỏng và mã đóng gói; chưa xác nhận trên tài khoản Zalo thật. Không gửi tin thật khi kiểm thử.
+Đã đạt 470 unit tests, 28 kiểm tra Electron, 203 kiểm tra giao diện và 13 kiểm tra payload Setup. Luồng đã kiểm thử từ mã đóng gói bằng dữ liệu mô phỏng; chưa xác nhận lượt đọc trên tài khoản Zalo mobile thật. Không gửi tin thật khi kiểm thử.
+
+Cập nhật đã đọc phụ thuộc Zalo gửi xác nhận đủ thông tin trên phiên đang kết nối; app không tự xóa mọi số chưa đọc hoặc suy đoán toàn bộ trạng thái trong thời gian ngoại tuyến.
 
 EXE hiện chưa ký chứng thư Authenticode. Manifest cập nhật đã ký Ed25519; hai loại chữ ký có mục đích khác nhau.
 
