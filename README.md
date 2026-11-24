@@ -1,52 +1,30 @@
-# ZMes — Quản lý Zalo trên Windows
+# ZMes
 
-**Phiên bản 1.0.2 · Windows x64 · Một file EXE portable**
+Phần mềm Windows miễn phí, được phát triển bởi Diticoms. Quản lý tài khoản Zalo, hội thoại, danh bạ/nhóm và chăm sóc khách hàng.
 
-ZMes giúp quản lý tin nhắn, danh bạ và khách hàng Zalo trong giao diện desktop gọn gàng.
+## Cài đặt và chạy
 
-**[Tải ZMes 1.0.2](https://github.com/duccenter/ZMes/releases/download/v1.0.2/ZMes-Portable-x64-1.0.2.exe)** · [Releases](https://github.com/duccenter/ZMes/releases) · [Hướng dẫn và cập nhật](UPDATING.md)
+- **Setup:** [ZMes-Setup-x64-1.0.3.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.3/ZMes-Setup-x64-1.0.3.exe). Cài đặt theo hướng dẫn, đọc và đồng ý điều khoản, chọn thư mục. Có shortcut và mục gỡ cài đặt.
+- **Portable:** [ZMes-Portable-x64-1.0.3.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.3/ZMes-Portable-x64-1.0.3.exe). Chép một EXE sang máy Windows x64 và mở. EXE không tự mang theo dữ liệu hoặc phiên đăng nhập từ máy khác.
 
-## Mới ở 1.0.2
+Dữ liệu làm việc nằm riêng với thư mục chương trình. Xem vị trí thực tế trong Cài đặt. Cài lại/cập nhật và gỡ cài đặt thông thường giữ dữ liệu. Mã kích hoạt gắn với phần cứng; sao lưu không tự chuyển mã sang máy mới.
 
-Sửa lỗi kết nối cập nhật GitHub trong Electron. Luồng mới kiểm tra chuyển hướng HTTPS và giữ xác minh chữ ký/hash. Đã thử tải thật toàn bộ EXE qua transport của app.
+## Cập nhật
 
-**Bản 1.0.0/1.0.1 cần tải EXE 1.0.2 thủ công một lần**, đóng bản cũ rồi mở file mới, giữ dữ liệu và phiên Zalo. Updater của bản cũ lỗi trước khi tải được bản vá.
+Bấm **Cập nhật** trên sidebar hoặc trong Cài đặt. Ứng dụng tải gói đúng loại, xác minh chữ ký và SHA-256 trước khi mở. Bản Setup mở trình cài đặt mới; bản Portable mở EXE Portable mới. Xem [UPDATING.md](UPDATING.md).
 
-## Trải nghiệm từ 1.0.1
+## Phiên bản 1.0.3
 
-- Mở app vào **Tin nhắn**. **Hộp thư** mặc định của mọi tài khoản không chứa hội thoại đã chuyển vào nhóm riêng; chọn **Tất cả** để xem đầy đủ.
-- **Báo cáo** gộp Thống kê và Lịch sử, nằm dưới menu chính.
-- Popup **Đồng bộ** gọn, giữ mở và có cuộn riêng. Mỗi tài khoản có **Tải gần đây · Từ điện thoại · Tài khoản**, tiến độ và số tin/media đã lưu của chính tài khoản đó.
-- Sửa ô chuyển tài khoản bị cắt/lệch; menu chuột phải căn trái thống nhất, chia nhóm thao tác rõ ràng.
-- Gia cố IPC, khóa debug trong bản phân phối, kiểm tra toàn vẹn tài nguyên và loại mã kiểm thử/source map khỏi gói phát hành.
+Bổ sung Setup với điều khoản tiếng Việt, tự lưu mốc đồng bộ và thử lại lô lỗi; hiển thị danh thiếp có nút Nhắn tin; sửa luồng chuyển menu Tin nhắn khi lỗi tải dữ liệu. Việc đồng bộ phụ thuộc dữ liệu và kết nối của Zalo; không cam kết khôi phục tin nền tảng không cung cấp.
 
-## Tính năng chính
+Đây là kho bản phát hành. Mã nguồn, khóa ký, mã kích hoạt và dữ liệu người dùng không được công khai tại đây. ZMes là ứng dụng độc lập, không phải sản phẩm chính thức của Zalo/VNG.
 
-- Hộp thư cá nhân và nhóm, lọc theo tài khoản, số tin đến chưa đọc, tìm kiếm, ghim và nhóm phân loại.
-- Văn bản, ảnh, file, emoji, sticker, tương tác; trả lời, chuyển tiếp, sao chép và thu hồi theo khả năng Zalo cung cấp.
-- Album, video và tin thoại trong app; lưu media đã tải về PC.
-- CRM: nhãn, phân luồng chăm sóc, tổng đơn nhập thủ công, dữ liệu theo tài khoản.
-- Quét bạn bè/nhóm, danh sách CSV, nhóm người nhận ZMes, mẫu tin và hàng đợi chiến dịch.
-- Duy trì phiên đăng nhập, chọn thư mục dữ liệu, sao lưu/phục hồi nội dung và media theo tính năng được cấp.
+Hỗ trợ: 0935 71 5151 · [app.diticoms.vn](https://app.diticoms.vn).
 
-Bản miễn phí dùng một tài khoản. Các chức năng nâng cấp được đánh dấu VIP trong app.
+## Tùy chọn mới
 
-## Chạy và cập nhật
+Bản Setup: Cài đặt → Windows để bật khởi động cùng Windows và thông báo góc màn hình cho hội thoại đang bật thông báo. Nội dung xem trước mặc định tắt; Windows có thể tạm ẩn thông báo khi bật Không làm phiền. Đóng hoàn toàn app sẽ dừng nhận tin.
 
-1. Tải **ZMes-Portable-x64-1.0.2.exe** rồi mở trên Windows x64; không cần bộ cài.
-2. Nếu đang dùng 1.0.0/1.0.1, tải và mở EXE 1.0.2 thủ công để sửa updater. Từ 1.0.2, dùng **Cập nhật** ở sidebar hoặc Cài đặt cho các bản sau.
-3. Nếu đang gửi/đồng bộ/sao lưu, xử lý tác vụ theo thông báo trước khi khởi động lại.
+Cài đặt → Giao diện để đổi màu nền, khung chat, viền và nhấn; có xem trước, lưu và khôi phục mặc định. Mục Lưu trữ được bố trí lại để chọn vị trí dữ liệu và mở Sao lưu/Phục hồi.
 
-EXE chỉ là tệp chạy. Dữ liệu nằm riêng tại **Cài đặt → Lưu trữ**. Chuyển máy bằng sao lưu/phục hồi và đăng nhập lại Zalo; key VIP gắn với máy.
-
-Bản 1.0.0 là mốc bắt đầu chính thức; các bản 2.x cũ cần mở EXE dòng 1.x thủ công một lần. Các bản 1.0.x cập nhật qua nút trong app.
-
-## Kiểm tra và dữ liệu
-
-Typecheck/lint, 416 unit tests, 27 self-tests và 199 kiểm tra UI đã đạt trong runtime QA riêng; 121 bố cục hiển thị. Gói rút gọn được đối chiếu nguồn, kiểm tra fuses/integrity và worker từ ASAR. Không gửi tin thật trong kiểm thử phát hành.
-
-Phiên đăng nhập dùng Windows DPAPI. Tin nhắn, media và bản sao lưu chưa mã hóa toàn bộ; bảo vệ tài khoản Windows và thư mục dữ liệu. Việc lấy lịch sử/media phụ thuộc dữ liệu Zalo cung cấp; không coi số lô đã nhận là đã khôi phục toàn bộ lịch sử.
-
----
-
-Repository này chỉ chứa **hướng dẫn và bản phát hành**. Mã nguồn, khóa ký, key cấp phép và dữ liệu khách hàng được giữ riêng.
+Nếu đang dùng Portable và muốn dùng các tùy chọn Windows, tải bản Setup và cài một lần. Cập nhật từ Portable vẫn giữ dạng Portable. Trên cùng máy/tài khoản Windows, bản Setup tiếp tục dùng vị trí dữ liệu đã cấu hình.
