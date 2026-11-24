@@ -1,4 +1,4 @@
-> Bản hiện tại: **1.0.5** — Sửa chuyển dữ liệu lớn, tiến trình/thời gian chuyển và hiển thị tin nhắn ghim trong hội thoại.
+> Bản hiện tại: **1.0.6** — Đồng bộ trạng thái đã đọc, số chưa đọc và thông báo tương ứng.
 
 # Cập nhật ZMes
 
@@ -28,3 +28,9 @@ Mở **Nội dung nhanh**, chọn Tin nhắn mẫu hoặc Sản phẩm, nhập n
 Đóng bản cũ rồi mở/cài bản mới, không bấm Đăng xuất. Vị trí dữ liệu đã chọn vẫn được giữ. Chuyển vị trí trong Cài đặt → Lưu trữ; chọn thư mục đích trống. Nếu lần trước chuyển lỗi và đích còn bản sao dở, chọn một thư mục trống mới. Giữ ứng dụng và các ổ đĩa kết nối trong khi tiến trình chạy; chỉ đổi vị trí sau khi sao chép và kiểm tra xong, bản gốc được giữ.
 
 Khi mở hội thoại có tin ghim, thanh Tin nhắn đã ghim xuất hiện ở đầu chat sau khi tải được từ Zalo; mở thanh để xem hoặc Làm mới. Bấm vào tin ghim để tìm tin gốc trong lịch sử đã lưu. Nếu tin gốc chưa có trên máy, cần đồng bộ thêm lịch sử. Tin ghim đã lưu được giữ khi mất mạng.
+
+## Kiểm tra đồng bộ đã đọc
+
+Sau khi cập nhật, giữ ZMes kết nối và mở một hội thoại có tin chưa đọc trên Zalo điện thoại. Khi Zalo gửi xác nhận đã xem đủ thông tin, số tương ứng ở ZMes được giảm; các tin đến sau mốc đó vẫn chưa đọc. Bản Setup cũng đóng thông báo Windows của tin đã đọc. Không cần bấm đánh dấu đã đọc thêm trên desktop.
+
+Luồng mới đã kiểm thử với dữ liệu mô phỏng và mã đóng gói; chưa xác nhận trên tài khoản mobile thật. Nếu Zalo không cung cấp receipt hoặc app ngoại tuyến khi bạn đọc, trạng thái local có thể chưa cập nhật; app giữ số hiện tại thay vì tự xóa nhắc nhở chưa đọc.
