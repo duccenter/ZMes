@@ -1,4 +1,4 @@
-> Bản hiện tại: **1.0.4** — Nội dung nhanh, sản phẩm có ảnh/giá và sửa hiển thị danh thiếp Zalo.
+> Bản hiện tại: **1.0.5** — Sửa chuyển dữ liệu lớn, tiến trình/thời gian chuyển và hiển thị tin nhắn ghim trong hội thoại.
 
 # Cập nhật ZMes
 
@@ -22,3 +22,9 @@ Nếu đang dùng Portable và muốn dùng các tùy chọn Windows, tải bả
 ## Dùng Nội dung nhanh
 
 Mở **Nội dung nhanh**, chọn Tin nhắn mẫu hoặc Sản phẩm, nhập nội dung/giá/ảnh và đặt lệnh như `/sp01`. Trong hội thoại, gõ `/` để chọn hoặc bấm **Mẫu**. Enter chỉ chèn nội dung và ảnh vào bản nháp; kiểm tra người nhận rồi mới gửi. Ghi chú riêng chỉ để xem nội bộ, không được đưa vào gợi ý gửi hoặc chiến dịch.
+
+## Chuyển dữ liệu và tin nhắn ghim
+
+Đóng bản cũ rồi mở/cài bản mới, không bấm Đăng xuất. Vị trí dữ liệu đã chọn vẫn được giữ. Chuyển vị trí trong Cài đặt → Lưu trữ; chọn thư mục đích trống. Nếu lần trước chuyển lỗi và đích còn bản sao dở, chọn một thư mục trống mới. Giữ ứng dụng và các ổ đĩa kết nối trong khi tiến trình chạy; chỉ đổi vị trí sau khi sao chép và kiểm tra xong, bản gốc được giữ.
+
+Khi mở hội thoại có tin ghim, thanh Tin nhắn đã ghim xuất hiện ở đầu chat sau khi tải được từ Zalo; mở thanh để xem hoặc Làm mới. Bấm vào tin ghim để tìm tin gốc trong lịch sử đã lưu. Nếu tin gốc chưa có trên máy, cần đồng bộ thêm lịch sử. Tin ghim đã lưu được giữ khi mất mạng.
