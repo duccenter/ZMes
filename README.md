@@ -4,21 +4,22 @@ Phần mềm Windows **miễn phí 100%**, được phát triển bởi **Ditico
 
 ## Tải và cài đặt
 
-- **Setup:** [ZMes-Setup-x64-1.0.7.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.7/ZMes-Setup-x64-1.0.7.exe). Cài theo hướng dẫn, đọc và đồng ý điều khoản, chọn thư mục. Có shortcut, khởi động cùng Windows, thông báo và mục gỡ cài đặt.
-- **Portable:** [ZMes-Portable-x64-1.0.7.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.7/ZMes-Portable-x64-1.0.7.exe). Chép một EXE sang máy Windows x64 và mở. EXE không tự mang theo dữ liệu hoặc phiên đăng nhập.
+- **Setup:** [ZMes-Setup-x64-1.0.8.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.8/ZMes-Setup-x64-1.0.8.exe). Cài theo hướng dẫn, đọc và đồng ý điều khoản, chọn thư mục. Có shortcut, khởi động cùng Windows, thông báo và mục gỡ cài đặt.
+- **Portable:** [ZMes-Portable-x64-1.0.8.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.8/ZMes-Portable-x64-1.0.8.exe). Chép một EXE sang máy Windows x64 và mở. EXE không tự mang theo dữ liệu hoặc phiên đăng nhập.
 
 Dữ liệu làm việc nằm riêng với thư mục chương trình; xem vị trí thực tế trong Cài đặt → Lưu trữ. Cài lại/cập nhật và gỡ cài đặt thông thường giữ dữ liệu. Key gắn phần cứng; sao lưu không tự chuyển key hoặc phiên đăng nhập sang máy mới.
 
-## Có gì mới trong 1.0.7
+## Có gì mới trong 1.0.8
 
-- Thanh soạn gọn, icon rõ ràng; Esc hoặc bấm ngoài để đóng mẫu/emoji/sticker/cảm xúc. Ảnh trong chat hiển thị trực tiếp.
-- Bộ chọn gửi danh thiếp; gửi số tài khoản, tạo nhắc hẹn, kiểu chữ, tin nhanh Zalo, sản phẩm và My Documents theo tài khoản.
-- Sửa hiển thị thẻ tài khoản ngân hàng và nhắc hẹn; giữ số tài khoản dạng chuỗi và tọa độ vị trí chính xác.
-- Tìm tên thật/tên riêng, UID/SĐT và toàn bộ nội dung tin đã lưu trên PC. Hỗ trợ tiếng Việt không dấu, nhiều từ khóa, trích đoạn và mở đúng tin cũ; có tiến độ tìm ở luồng nền.
-- Tin hôm nay chỉ hiện giờ, tin cũ có ngày và giờ; giảm các thao tác quét lại dữ liệu lớn khi mở app.
-- Mục Thông tin ứng dụng có QR truy cập/tải app Diticoms để ủng hộ tác giả và thông tin key cấp miễn phí.
+- Tin bạn gửi từ điện thoại hoặc thiết bị khác không tăng số chưa đọc và không phát thông báo tin đến.
+- Khi nhận xác nhận đã đọc hoặc lượt trả lời trực tiếp trên điện thoại trong hội thoại cá nhân, app xóa số chưa đọc cũ đúng hội thoại; tin đến sau mốc đó vẫn giữ thông báo.
+- Tự đối soát huy hiệu còn sót khi tài khoản kết nối lại; giữ dữ liệu, lịch sử, CRM và các tài khoản khác.
+- Nhận thêm biến thể sự kiện UID 0 và lịch sử thiếu metadata; đối chiếu chính xác mã tin, bỏ qua trường hợp không xác định được hội thoại.
+- Cập nhật số ở hội thoại, nhóm hộp thư, ghim và sidebar; đóng thông báo Windows của tin đã đọc. Không gắn trạng thái người nhận đã xem chỉ vì chính bạn đọc trên thiết bị khác.
 
-Vị trí được gửi bằng liên kết bản đồ; GIF chọn từ máy. Chia sẻ thông tin ngân hàng không thực hiện giao dịch chuyển tiền. Công cụ phụ thuộc API và quyền của phiên Zalo; lịch sử chưa đồng bộ về PC chưa thể tìm từ dữ liệu local.
+Các công cụ gửi danh thiếp, số tài khoản, nhắc hẹn, tin nhanh, sản phẩm, My Documents; tìm toàn lịch sử đã lưu và hiển thị ngày tin cũ được giữ từ bản trước.
+
+Trạng thái đọc trên điện thoại phụ thuộc sự kiện Zalo cung cấp qua phiên đang kết nối. Chưa nghiệm thu tài khoản Zalo thật cho thay đổi đồng bộ đã đọc này.
 
 ## Cập nhật
 
@@ -34,7 +35,7 @@ Bấm **Cập nhật** trên sidebar hoặc trong Cài đặt. App tải gói đ
 
 ## Kiểm chứng và phạm vi
 
-Đạt 497 unit tests, 28 kiểm tra Electron, 203 kiểm tra giao diện, 6 kiểm tra gói/bảo mật và 13 kiểm tra payload Setup. Các luồng gửi mới đã kiểm thử bằng API giả lập và module trong ASAR; không gửi tin thật trong phát triển. Chưa nghiệm thu cài/gỡ Setup trên máy sạch hoặc đo lại startup lạnh với dữ liệu thật.
+Đạt 509 unit tests, 28 kiểm tra Electron, 203 kiểm tra giao diện, 6 kiểm tra gói/bảo mật và 13 kiểm tra payload Setup. Các luồng gửi mới đã kiểm thử bằng API giả lập và module trong ASAR; không gửi tin thật trong phát triển. Chưa nghiệm thu cài/gỡ Setup trên máy sạch hoặc đo lại startup lạnh với dữ liệu thật.
 
 EXE chưa ký chứng thư Authenticode. Manifest cập nhật ký Ed25519 để ứng dụng xác minh nguồn bản cập nhật và SHA-256; đây là cơ chế riêng với chữ ký Windows.
 
