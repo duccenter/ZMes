@@ -1,35 +1,18 @@
-# Sử dụng và cập nhật ZMes 1.0.2
+# Cập nhật ZMes
 
-## Mở ứng dụng
+Người dùng chỉ cần bấm **Cập nhật** trong ứng dụng. App tự chọn kênh đúng loại, kiểm tra thông tin phiên bản và chữ ký; chỉ tải/cài khi người dùng chủ động yêu cầu. Tác vụ đang bận hoặc lỗi lưu phiên sẽ chặn khởi động cập nhật để bảo vệ dữ liệu.
 
-[Tải ZMes 1.0.2 cho Windows x64](https://github.com/duccenter/ZMes/releases/download/v1.0.2/ZMes-Portable-x64-1.0.2.exe). Chép một file EXE sang máy Windows và mở, không cần bộ cài.
+- Portable dùng `latest.json` và gói Portable.
+- Setup dùng `setup-latest.json` và gói Setup; sau tải xong, ứng dụng đóng và mở wizard để hoàn tất nâng cấp. Giữ nguyên đường dẫn cài hiện có nếu không cần đổi.
+- Gói sai chữ ký, sai SHA-256, thiếu byte hoặc nguồn lỗi không được chạy. Có thể thử lại khi kết nối ổn định.
+- Các bản 1.0.0/1.0.1 có lỗi updater cũ cần tải EXE mới thủ công một lần. Bản Setup được cung cấp từ 1.0.3.
 
-## Cập nhật lần này từ 1.0.0/1.0.1
+Khi phát hành phiên bản mới, đơn vị phát triển đặt cả hai EXE và hai manifest đã ký trong cùng GitHub Release. Không ghi đè EXE của phiên bản cũ. Không công khai khóa ký hoặc dữ liệu người dùng. Nếu một kênh chưa có manifest, người dùng có thể tải đúng loại EXE trực tiếp ở Releases.
 
-Do lỗi chuyển hướng GitHub trong updater bản cũ, cần tải **ZMes-Portable-x64-1.0.2.exe** thủ công một lần. Đóng app cũ, mở EXE mới trên cùng máy; giữ nguyên thư mục dữ liệu, không cần đăng xuất Zalo. Không thể sửa mã updater đã nằm trong EXE cũ bằng cách thay latest.json.
+## Tùy chọn mới
 
-## Từ bản 1.0.2 trở đi
+Bản Setup: Cài đặt → Windows để bật khởi động cùng Windows và thông báo góc màn hình cho hội thoại đang bật thông báo. Nội dung xem trước mặc định tắt; Windows có thể tạm ẩn thông báo khi bật Không làm phiền. Đóng hoàn toàn app sẽ dừng nhận tin.
 
-Bấm Cập nhật ở sidebar hoặc Cài đặt. App kiểm tra bản mới, tải, xác minh chữ ký/hash rồi lưu phiên và mở EXE mới. Hoàn tất/dừng tác vụ đang bận theo thông báo trước khi cập nhật. Kiểm tra nền chỉ thông báo, không tự mở EXE.
+Cài đặt → Giao diện để đổi màu nền, khung chat, viền và nhấn; có xem trước, lưu và khôi phục mặc định. Mục Lưu trữ được bố trí lại để chọn vị trí dữ liệu và mở Sao lưu/Phục hồi.
 
-Client 2.x cũ cũng cần mở EXE 1.0.2 thủ công một lần.
-
-## Hộp thư và đồng bộ
-
-App mở vào Tin nhắn, Hộp thư của mọi tài khoản. Hội thoại đã chuyển vào nhóm riêng được loại khỏi Hộp thư; chọn Tất cả để xem toàn bộ.
-
-Mở **Tiến trình đồng bộ** bên trái. Mỗi tài khoản có Tải gần đây, Từ điện thoại và Tài khoản. Chọn đúng dòng cần thao tác; Từ điện thoại vẫn yêu cầu xác nhận. Popup giữ mở tới khi chủ động thu gọn.
-
-**Báo cáo** ở dưới menu chứa Thống kê và Lịch sử.
-
-## Chuyển máy
-
-EXE không mang theo dữ liệu. Xem vị trí ở Cài đặt → Lưu trữ; dùng Sao lưu & Phục hồi để chuyển tin nhắn/media đã lưu, rồi đăng nhập Zalo lại. Key VIP gắn với phần cứng máy, không chuyển qua bản sao lưu.
-
-## Khi cập nhật chưa được
-
-- Kiểm tra mạng rồi thử lại; hoàn tất hoặc dừng tác vụ đang bận theo thông báo.
-- Nếu chữ ký/hash không hợp lệ, dùng đúng tệp phát hành chính thức, không sửa JSON.
-- Nếu chưa có bản mới, app báo đang dùng bản mới nhất.
-
-[Xem các bản phát hành](https://github.com/duccenter/ZMes/releases)
+Nếu đang dùng Portable và muốn dùng các tùy chọn Windows, tải bản Setup và cài một lần. Cập nhật từ Portable vẫn giữ dạng Portable. Trên cùng máy/tài khoản Windows, bản Setup tiếp tục dùng vị trí dữ liệu đã cấu hình.
