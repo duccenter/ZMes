@@ -4,22 +4,20 @@ Phần mềm Windows **miễn phí 100%**, được phát triển bởi **Ditico
 
 ## Tải và cài đặt
 
-- **Setup:** [ZMes-Setup-x64-1.0.8.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.8/ZMes-Setup-x64-1.0.8.exe). Cài theo hướng dẫn, đọc và đồng ý điều khoản, chọn thư mục. Có shortcut, khởi động cùng Windows, thông báo và mục gỡ cài đặt.
-- **Portable:** [ZMes-Portable-x64-1.0.8.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.8/ZMes-Portable-x64-1.0.8.exe). Chép một EXE sang máy Windows x64 và mở. EXE không tự mang theo dữ liệu hoặc phiên đăng nhập.
+- **Setup:** [ZMes-Setup-x64-1.0.9.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.9/ZMes-Setup-x64-1.0.9.exe). Cài theo hướng dẫn, đọc và đồng ý điều khoản, chọn thư mục. Có shortcut, khởi động cùng Windows, thông báo và mục gỡ cài đặt.
+- **Portable:** [ZMes-Portable-x64-1.0.9.exe](https://github.com/duccenter/ZMes/releases/download/v1.0.9/ZMes-Portable-x64-1.0.9.exe). Chép một EXE sang máy Windows x64 và mở. EXE không tự mang theo dữ liệu hoặc phiên đăng nhập.
 
 Dữ liệu làm việc nằm riêng với thư mục chương trình; xem vị trí thực tế trong Cài đặt → Lưu trữ. Cài lại/cập nhật và gỡ cài đặt thông thường giữ dữ liệu. Key gắn phần cứng; sao lưu không tự chuyển key hoặc phiên đăng nhập sang máy mới.
 
-## Có gì mới trong 1.0.8
+## Có gì mới trong 1.0.9
 
-- Tin bạn gửi từ điện thoại hoặc thiết bị khác không tăng số chưa đọc và không phát thông báo tin đến.
-- Khi nhận xác nhận đã đọc hoặc lượt trả lời trực tiếp trên điện thoại trong hội thoại cá nhân, app xóa số chưa đọc cũ đúng hội thoại; tin đến sau mốc đó vẫn giữ thông báo.
-- Tự đối soát huy hiệu còn sót khi tài khoản kết nối lại; giữ dữ liệu, lịch sử, CRM và các tài khoản khác.
-- Nhận thêm biến thể sự kiện UID 0 và lịch sử thiếu metadata; đối chiếu chính xác mã tin, bỏ qua trường hợp không xác định được hội thoại.
-- Cập nhật số ở hội thoại, nhóm hộp thư, ghim và sidebar; đóng thông báo Windows của tin đã đọc. Không gắn trạng thái người nhận đã xem chỉ vì chính bạn đọc trên thiết bị khác.
+- Ảnh gửi/nhận cùng lượt được gom thành album, kể cả ảnh đồng bộ từ điện thoại; có chuyển tiếp cả album 4–8 ảnh. Vượt giới hạn của phiên Zalo được chia lô, không bỏ ảnh âm thầm hoặc tự gửi lại khi chưa rõ kết quả.
+- Mở link web và link mời nhóm; xem thông tin nhóm, kiểm tra tài khoản và xác nhận trước khi tham gia. Phân biệt đã là thành viên, cần quản trị viên duyệt và kết quả chưa xác định.
+- Thẻ xem trước link gồm tên miền, tiêu đề, mô tả ngắn và ảnh thu nhỏ khi Zalo cung cấp. Có trong ô soạn, hộp gửi link và tin nhận; xem trước không tự gửi hoặc làm mất bản nháp.
+- Tạo/xem/bình chọn nhóm, bật/tắt thông báo hội thoại trên Zalo và gửi/đồng ý/từ chối lời mời kết bạn có xác nhận.
+- Giữ sửa lỗi số chưa đọc giữa các thiết bị của bản 1.0.8 và các công cụ danh thiếp, ngân hàng, nhắc hẹn, file, sticker, cảm xúc, tìm toàn lịch sử đã lưu.
 
-Các công cụ gửi danh thiếp, số tài khoản, nhắc hẹn, tin nhanh, sản phẩm, My Documents; tìm toàn lịch sử đã lưu và hiển thị ngày tin cũ được giữ từ bản trước.
-
-Trạng thái đọc trên điện thoại phụ thuộc sự kiện Zalo cung cấp qua phiên đang kết nối. Chưa nghiệm thu tài khoản Zalo thật cho thay đổi đồng bộ đã đọc này.
+Các công cụ mới đã được kiểm thử bằng SDK và dữ liệu QA riêng, chưa nghiệm thu trên tài khoản Zalo thật. Thẻ xem trước, media, quyền nhóm và trạng thái đọc còn phụ thuộc dữ liệu/API của Zalo. Không có chức năng gọi thoại/video trực tiếp, feed hoặc đầy đủ bộ quản trị nhóm nâng cao.
 
 ## Cập nhật
 
@@ -35,7 +33,7 @@ Bấm **Cập nhật** trên sidebar hoặc trong Cài đặt. App tải gói đ
 
 ## Kiểm chứng và phạm vi
 
-Đạt 509 unit tests, 28 kiểm tra Electron, 203 kiểm tra giao diện, 6 kiểm tra gói/bảo mật và 13 kiểm tra payload Setup. Các luồng gửi mới đã kiểm thử bằng API giả lập và module trong ASAR; không gửi tin thật trong phát triển. Chưa nghiệm thu cài/gỡ Setup trên máy sạch hoặc đo lại startup lạnh với dữ liệu thật.
+Đạt 535 unit tests, 28 kiểm tra Electron, 206 kiểm tra giao diện, 6 kiểm tra gói/bảo mật và 13 kiểm tra payload Setup. Các luồng gửi mới đã kiểm thử bằng API giả lập và module trong ASAR; không gửi tin thật trong phát triển. Chưa nghiệm thu cài/gỡ Setup trên máy sạch hoặc đo lại startup lạnh với dữ liệu thật.
 
 EXE chưa ký chứng thư Authenticode. Manifest cập nhật ký Ed25519 để ứng dụng xác minh nguồn bản cập nhật và SHA-256; đây là cơ chế riêng với chữ ký Windows.
 
