@@ -1,4 +1,4 @@
-> Bản hiện tại: **1.0.8** — Sửa số chưa đọc khi dùng điện thoại và nhiều thiết bị.
+> Bản hiện tại: **1.0.9** — Album ảnh, xem trước link và công cụ Zalo.
 
 # Cập nhật ZMes
 
@@ -46,3 +46,12 @@ Luồng mới đã kiểm thử với dữ liệu mô phỏng và mã đóng gó
 ## Sau khi lên 1.0.8
 
 Giữ ZMes kết nối tài khoản. App đối soát huy hiệu còn sót khi kết nối lại; khi nhận sự kiện đã đọc hoặc lượt trả lời trực tiếp trên điện thoại trong hội thoại cá nhân, số cũ được giảm đến đúng mốc đó. Tin đến sau mốc vẫn chưa đọc. Không cần đăng xuất hoặc xóa dữ liệu. Các hội thoại nhóm dựa vào sự kiện đã đọc xác định đúng tài khoản.
+
+## Sau khi lên 1.0.9
+
+- Album có nút Chuyển tiếp album; app lấy đầy đủ các ảnh cùng mã album đã lưu. Nếu chưa đủ ảnh, đồng bộ thêm hội thoại trước khi chuyển tiếp.
+- Dán link vào ô soạn hoặc Công cụ → Liên kết để xem thẻ nội dung. Trang không trả metadata/ảnh vẫn gửi được URL.
+- Bấm link mời nhóm để xem thông tin và xác nhận tài khoản tham gia. Mã yêu cầu duyệt không được coi là đã vào nhóm.
+- Công cụ khác có Tạo bình chọn nhóm và Thông báo hội thoại. Thẻ bình chọn có Xem & bình chọn; menu Người lạ có Kết bạn/Đồng ý/Từ chối theo trạng thái.
+
+Kiểm tra người nhận và xác nhận trước mọi thao tác gửi/tham gia. Nếu kết quả chưa rõ, kiểm tra Zalo trước khi thử lại. Không cần đăng xuất hoặc xóa dữ liệu khi cập nhật.
